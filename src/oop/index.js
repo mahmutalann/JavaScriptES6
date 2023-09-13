@@ -40,6 +40,7 @@ let products = [
     {id:5, name : "E Laptop", unitPrice:17000},
 ]
 
+//It is like for loop. 
 console.log("<ul>")
 products.map(product=>console.log(`<li>${product.name}</li>`))
 console.log("</ul>")
@@ -49,10 +50,11 @@ console.log("</ul>")
      console.log(`<li>${product.name}</li>`)
 })
 
+//It filters as an array. If it does not have data, it runs empty array.
 let filteredProducts = products.filter(product=>product.unitPrice>12000)
 console.log(filteredProducts)
 
-
+//It totals the price of products.
 let cartTotal = products.reduce((acc, product)=>acc+ product.unitPrice, 0)
 console.log(cartTotal)
 
