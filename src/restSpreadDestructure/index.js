@@ -8,7 +8,7 @@ console.log(100, "Apple, Pear, Watermelon")
 console.log(100, ["Apple, Pear, Watermelon"]) //Array in array
 
 //Spread
-let points = [1, 10, 20, 30, 40 ,50]
+let points = [1, 10, 20, 30, 40, 50]
 console.log(...points)
 console.log(Math.max(...points))
 console.log(..."ABC", "D", ..."EFG", "H")
