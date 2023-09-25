@@ -15,7 +15,7 @@ console.log(..."ABC", "D", ..."EFG", "H")
 
 //Destructuring : Shred. It matches values with variables.
 let populations = [1000, 2000, 3000, [4000, 5000]]
-let [small, medium, high, [verHigh, max]] = populations
+let [small, medium, high, [veryHigh, max]] = populations
 console.log(small)
 console.log(medium)
 console.log(high)
