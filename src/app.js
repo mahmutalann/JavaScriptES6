@@ -23,10 +23,10 @@ number1 = "Mahmut"
 console.log(number1); //Output : Mahmut
 */
 
-/*
+
 let student = {id : 1, name : "Mahmut"} //Object Notation
 console.log(student)
-*/
+
 
 /*
 function save(stu) {
