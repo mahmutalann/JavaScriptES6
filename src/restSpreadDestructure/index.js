@@ -19,7 +19,7 @@ let [small, medium, high, [verHigh, max]] = populations
 console.log(small)
 console.log(medium)
 console.log(high)
-console.log(verHigh)
+console.log(veryHigh)
 console.log(max)
 
 function someFunction([small1], number) {
